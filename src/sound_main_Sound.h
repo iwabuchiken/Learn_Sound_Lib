@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_sound_main_Sound_hello
   (JNIEnv *, jobject, jstring);
 
+/*
+ * Class:     sound_main_Sound
+ * Method:    get_Wave
+ * Signature: (Ljava/lang/String;)[D
+ */
+JNIEXPORT jdoubleArray JNICALL Java_sound_main_Sound_get_1Wave
+  (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
