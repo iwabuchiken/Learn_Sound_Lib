@@ -10,9 +10,9 @@ extern "C" {
 /*
  * Class:     sound_main_Sound
  * Method:    hello
- * Signature: (Ljava/lang/String;)V
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
-JNIEXPORT void JNICALL Java_sound_main_Sound_hello
+JNIEXPORT jstring JNICALL Java_sound_main_Sound_hello
   (JNIEnv *, jobject, jstring);
 
 #ifdef __cplusplus
